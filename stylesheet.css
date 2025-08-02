@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+
+
+a {
+  color: #9a80c4;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #8ba3c7;
+  text-decoration: none;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: 'Crimson Text', Georgia, serif;
+  font-size: 16px
+}
+
+strong {
+  font-family: 'Crimson Text', Georgia, serif;
+  font-size: 16px;
+}
+
+classes {
+  font-family: 'Crimson Text', Georgia, serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+heading {
+  font-family: 'Crimson Text', Georgia, serif;
+  font-size: 23px;
+}
+
+misc {
+  font-family: 'Crimson Text', Georgia, serif; 
+  font-size: 16px;
+}
+
+papertitle {
+  font-family: 'Crimson Text', Georgia, serif;
+  font-size: 16px;
+  font-weight: 600  
+}
+
+name {
+  font-family: 'Crimson Text', Georgia, serif;
+  font-size: 32px;
+}
+
+.special-link {
+  color: #bb8da5 !important; 
+}
+
+.special-link:hover {
+  color: #8ba3c7 !important; 
+}
+
+.one {
+  width: 160px;
+  height: 160px;
+  position: relative;
+  padding-top: 5px;
+}
+
+.two {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade {
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+body{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+<style>
+.filter-section {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+.filter-link {
+    color: #9a80c4;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.filter-link:hover {
+    color: #8ba3c7;
+}
+
+.filter-link.active {
+    color: #8ba3c7;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.publication-row {
+    transition: opacity 0.3s ease;
+}
+
+.publication-row.hidden {
+    display: none;
+}
+
+.category-tag {
+    display: inline-block;
+    background: #889fbb;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.section-header.hidden-in-selected {
+    display: none;
+}
+
+</style>
